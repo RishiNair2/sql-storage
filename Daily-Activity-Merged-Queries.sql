@@ -1,6 +1,7 @@
 ----Daily Activity Merged SQL Queries----
 SELECT *
 FROM daily_activity_merged
+
 ----FIND MAX, MIN, AND AVERAGE DISTANCE, MINUTES, STEPS, CALORIES
 SELECT id, MAX(total_distance) max_distance, MIN(total_distance) min_distance, 
 AVG(total_distance) avg_distance
