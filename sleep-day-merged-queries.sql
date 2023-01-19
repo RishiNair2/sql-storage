@@ -1,5 +1,6 @@
 SELECT *
 FROM sleep_day_merged
+
 --- The different ids associated with the sleep log ---
 SELECT id, COUNT(*) num_ids
 FROM sleep_day_merged
